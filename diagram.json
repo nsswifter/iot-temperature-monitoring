@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Mehdi Karami",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 11.33, "left": 14, "attrs": {} },
+    { "type": "wokwi-esp-01", "id": "atmodem", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": 38.7, "left": 340.2, "attrs": {} }
+  ],
+  "connections": [
+    [ "atmodem:U0TXD", "uno:2", "", [] ],
+    [ "atmodem:U0RXD", "uno:3", "", [] ],
+    [ "dht1:VCC", "uno:5V", "red", [ "v76.8", "h-182.4" ] ],
+    [ "dht1:SDA", "uno:7", "green", [ "v19.2", "h-47.9", "v-182.4", "h-115.2" ] ],
+    [ "dht1:GND", "uno:GND.3", "black", [ "v67.2", "h-192" ] ]
+  ],
+  "serialMonitor": { "newline": "crlf" },
+  "dependencies": {}
+}
