@@ -8,7 +8,7 @@ The project was developed and tested using [Wokwi](https://wokwi.com), an online
 
 You can view and interact with the simulator project on [Wokwi Simulated Project](https://wokwi.com/projects/415922746755454977).
 
-<p align="center"> <img src="circuit.png" height="350"/> </p>
+<p align="center"> <img src="circuit.png" height="300"/> </p>
 
 ### Hardware Connections
 - **Arduino Uno**: The main controller for the project.
