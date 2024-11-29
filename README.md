@@ -6,6 +6,8 @@ The system is built using an **Arduino Uno** as the microcontroller to interface
 
 The project was developed and tested using [Wokwi](https://wokwi.com), an online Arduino simulator, and the temperature data is sent to a mock server hosted on [Beeceptor](https://beeceptor.com).
 
+You can view and interact with the simulator project on [Wokwi Simulated Project](https://wokwi.com/projects/415922746755454977).
+
 <p align="center"> <img src="circuit.png" height="350"/> </p>
 
 ### Hardware Connections
@@ -39,6 +41,9 @@ The project was developed and tested using [Wokwi](https://wokwi.com), an online
    [Beeceptor Console](https://app.beeceptor.com/console/iot-temperature-monitoring-mock-server)
 
 ## Code Explanation
+
+The core program for this project can be found in the file [sketch.ino](sketch.ino).
+
 ### Setup:
 - The program starts by initializing the **DHT22** sensor and **ESP8266** Wi-Fi module.
 - The **ESP8266** connects to the Wi-Fi network.
